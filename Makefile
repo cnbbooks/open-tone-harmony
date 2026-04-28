@@ -38,7 +38,7 @@ ifndef CALIBRE
 	@echo ">> Calibre not found at $(CALIBRE). Skipping ebook generation."
 else
 	@echo ">> Building PDF with Calibre..."
-	@$(CALIBRE) $(PUBLISH_DIR)/epub/Lykn.epub $(PUBLISH_DIR)/pdf/Lykn.pdf \
+	@$(CALIBRE) $(PUBLISH_DIR)/epub/oth.epub $(PUBLISH_DIR)/pdf/oth.pdf \
 		--pdf-page-numbers \
 		--preserve-cover-aspect-ratio \
 		--pdf-default-font-size 11 \

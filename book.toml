@@ -51,7 +51,7 @@ enable = true
 # ============================================================================
 #
 # Install: cargo install mdbook-epub
-# Build:   mdbook build  (produces book/epub/Lykn.epub)
+# Build:   mdbook build  (produces book/epub/oth.epub)
 #
 # Font files must exist at theme/fonts/ before building. See scripts/fetch-fonts.sh
 # for a one-shot downloader that pulls them from Google Fonts' open-source repo.
