@@ -55,26 +55,26 @@ jobs:
       - name: Rename EPUB for release
         run: |
           # mdbook-epub names the file based on the book title.
-          EPUB_SRC="book/epub/Lykn.epub"
+          EPUB_SRC="book/epub/oth.epub"
           if [[ ! -f "$EPUB_SRC" ]]; then
             echo "::error::Expected $EPUB_SRC does not exist. EPUB build may have failed silently."
             ls -la book/epub/ || true
             exit 1
           fi
-          cp "$EPUB_SRC" book/epub/lykn-latest.epub
+          cp "$EPUB_SRC" book/epub/oth-latest.epub
           if [[ "${GITHUB_REF}" == refs/tags/* ]]; then
             VERSION="${GITHUB_REF#refs/tags/}"
-            cp "$EPUB_SRC" "book/epub/lykn-${VERSION}.epub"
+            cp "$EPUB_SRC" "book/epub/oth-${VERSION}.epub"
           fi
 
       - name: Sanity-check EPUB contents
         run: |
           echo "=== Fonts packaged ==="
-          unzip -l book/epub/Lykn.epub | grep -iE '\.ttf$' | wc -l
+          unzip -l book/epub/oth.epub | grep -iE '\.ttf$' | wc -l
           echo "=== Stylesheet packaged ==="
-          unzip -l book/epub/Lykn.epub | grep -i stylesheet.css
+          unzip -l book/epub/oth.epub | grep -i stylesheet.css
           echo "=== Chapter image count ==="
-          unzip -l book/epub/Lykn.epub | grep -cE 'ch[0-9]+\.png'
+          unzip -l book/epub/oth.epub | grep -cE 'ch[0-9]+\.png'
 
       - name: Upload HTML artifact for Pages
         uses: actions/upload-pages-artifact@v3
@@ -98,7 +98,7 @@ jobs:
           body: |
             Automatically updated EPUB from the latest `main` commit.
             For a stable version, see tagged releases.
-          files: book/epub/lykn-latest.epub
+          files: book/epub/oth-latest.epub
           prerelease: true
 
       # Proper versioned release when a v* tag is pushed.
@@ -106,7 +106,7 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v2
         with:
-          files: book/epub/lykn-*.epub
+          files: book/epub/oth-*.epub
           generate_release_notes: true
 
   deploy:
