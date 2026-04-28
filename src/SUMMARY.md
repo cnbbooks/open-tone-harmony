@@ -32,6 +32,23 @@
   * [The Atomic Step](part3/ch07-atomic-step/README.md)
   * [Passing Tones, Suspensions, Pedal Points](part3/ch08-passing-suspensions-pedal/README.md)
   * [Counterpoint](part3/ch09-counterpoint/README.md)
+    * [Creating Counterpoint](part3/ch09-counterpoint/taxonomy/README.md)
+      * [1. Note Against Chord](part3/ch09-counterpoint/taxonomy/species1.md)
+      * [2. Two Notes per Chord-Zone](part3/ch09-counterpoint/taxonomy/species2.md)
+      * [3. Four Notes per Chord-Zone](part3/ch09-counterpoint/taxonomy/species3.md)
+      * [4. Suspension and Fiber Color](part3/ch09-counterpoint/taxonomy/species4.md)
+      * [5. Florid](part3/ch09-counterpoint/taxonomy/species5.md)
+    * [Assessing Counterpoint](part3/ch09-counterpoint/analysis/README.md)
+      * [1. Chord-graph fidelity](part3/ch09-counterpoint/analysis/assess1.md)
+      * [2. Voice independence](part3/ch09-counterpoint/analysis/assess2.md)
+      * [3. Cadential integrity](part3/ch09-counterpoint/analysis/assess3.md)
+      * [4. Motivic coherence](part3/ch09-counterpoint/analysis/assess4.md)
+      * [5. Wing-color identity](part3/ch09-counterpoint/analysis/assess5.md)
+      * [6. Shadow-note treatment](part3/ch09-counterpoint/analysis/assess6.md)
+      * [Common Errors](part3/ch09-counterpoint/analysis/errors.md)
+      * [Worked Example](part3/ch09-counterpoint/analysis/example.md)
+      * [Self-Assessment](part3/ch09-counterpoint/analysis/checklist.md)
+    * [Tools for Counterpoint](part3/ch09-counterpoint/tools.md)
   * [The Window Slide](part3/ch10-window-slide/README.md)
 
 --------------------
@@ -54,19 +71,30 @@
 
 --------------------
 
-[Conclusion](conclusion/README.md)
+* [Conclusion](conclusion/README.md)
 
-[Art for Dessert](dessert.md)
+* [Art for Dessert](dessert.md)
 
 --------------------
 
-[Appendix A — Complete Orbit Reference](appendices/orbit-reference.md)
+* [Appendix A — Complete Orbit Reference](appendices/orbit-reference.md)
 
-[Appendix B — Mathematical Foundations](appendices/math-foundations.md)
+* [Appendix B — Mathematical Foundations](appendices/math-foundations.md)
 
-[Appendix C — Glossary](appendices/glossary.md)
+* [Appendix C — Glossary](appendices/glossary/README.md)
+  * [Foundational Terms](appendices/glossary/foundational.md)
+  * [The Topographic Landscape — Functional Regions](appendices/glossary/functional.md)
+  * [The Ridgeline](appendices/glossary/ridgeline.md)
+  * [Wing Structure](appendices/glossary/wings.md)
+  * [Fiber Bundle Structure](appendices/glossary/fiber.md)
+  * [Progression Motion](appendices/glossary/motion.md)
+  * [Motion Categories](appendices/glossary/motion-categories.md)
+  * [Scale and Mode](appendices/glossary/scale-mode.md)
+  * [Structural Terms](appendices/glossary/structural.md)
+  * [Maths](appendices/glossary/maths.md)
+  * [Counterpoint Terms](appendices/glossary/counterpoint.md)
 
-[Appendix D — Notation Conventions](appendices/notation.md)
+* [Appendix D — Notation Conventions](appendices/notation.md)
 
 [References](appendices/references.md)
 
