@@ -54,17 +54,13 @@ jobs:
 
       - name: Rename EPUB for release
         run: |
-          # mdbook-epub names the file based on the book title.
-          EPUB_SRC="book/epub/oth.epub"
-          if [[ ! -f "$EPUB_SRC" ]]; then
-            echo "::error::Expected $EPUB_SRC does not exist. EPUB build may have failed silently."
-            ls -la book/epub/ || true
-            exit 1
-          fi
-          cp "$EPUB_SRC" book/epub/oth-latest.epub
+          # mdbook-epub names the file after the [book] title, which contains spaces.
+          # Rename to oth.epub up front so every downstream step uses a clean name.
+          mv "book/epub/Open Tone Harmony.epub" book/epub/oth.epub
+          cp book/epub/oth.epub book/epub/oth-latest.epub
           if [[ "${GITHUB_REF}" == refs/tags/* ]]; then
             VERSION="${GITHUB_REF#refs/tags/}"
-            cp "$EPUB_SRC" "book/epub/oth-${VERSION}.epub"
+            cp book/epub/oth.epub "book/epub/oth-${VERSION}.epub"
           fi
 
       - name: Sanity-check EPUB contents
