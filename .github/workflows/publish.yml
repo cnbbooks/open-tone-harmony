@@ -70,7 +70,7 @@ jobs:
           echo "=== Stylesheet packaged ==="
           unzip -l book/epub/oth.epub | grep -i stylesheet.css
           echo "=== Chapter image count ==="
-          unzip -l book/epub/oth.epub | grep -cE 'ch[0-9]+\.png'
+          unzip -l book/epub/oth.epub | grep -cE 'ch[0-9]+\.png' || echo "(none)"
 
       - name: Upload HTML artifact for Pages
         uses: actions/upload-pages-artifact@v3
