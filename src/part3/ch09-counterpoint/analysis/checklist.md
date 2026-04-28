@@ -4,7 +4,7 @@ Use this checklist when reviewing your own work:
 
 - [ ] **Chord-graph fidelity.** Every transition is a legal motion type (single edge, compound perturbation, window slide, or fiber inversion).
 - [ ] **No orbit persistence.** No three or more consecutive edges within the same orbit.
-- [ ] **Cadential preparation.** Every structural cadence is approached through a tension chord (Crossroads, Slope, or related).
+- [ ] **Cadential preparation.** Every structural cadence is approached through a tension chord (Saddle, Slope, or related).
 - [ ] **Leading-interval-pair at cadences.** At least one cadence employs two voices each moving by single semitone in coordinated motion.
 - [ ] **Voice independence.** Voices have different rhythmic profiles at multiple points.
 - [ ] **Motivic coherence.** At least one short rhythmic-pitch cell appears more than once with variation.

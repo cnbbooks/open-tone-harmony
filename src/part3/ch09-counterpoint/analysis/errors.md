@@ -4,7 +4,7 @@ These are the most common errors in OTH counterpoint, in rough order of frequenc
 
 1. **Orbit persistence** (parallel-perfect-orbits): three or more consecutive chord-graph edges within the same orbit. *Fix:* introduce an orbit change.
 
-2. **Cadence miss**: the penultimate chord is not a tension chord, or the leading-interval-pair is not coordinated. *Fix:* approach the Summit through a Crossroads or Slope; coordinate the two semitone resolutions to occur in the same beat or adjacent beats.
+2. **Cadence miss**: the penultimate chord is not a tension chord, or the leading-interval-pair is not coordinated. *Fix:* approach the Summit through a Saddle or Slope; coordinate the two semitone resolutions to occur in the same beat or adjacent beats.
 
 3. **Unresolved non-chord tones**: a passing/neighbor tone that doesn't resolve by step. *Fix:* either resolve it stepwise or relabel it as a chord tone (perhaps you've miscounted the orbit).
 

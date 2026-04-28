@@ -16,7 +16,7 @@
    - **Stepwise cell**: four eighth notes ascending or descending stepwise, e.g., C5 D5 Eb5 D5.
    - **Turn cell**: a melodic turn around a central pitch, e.g., D5 Eb5 D5 C5 (upper neighbor + lower neighbor).
 
-4. **Place cells at structurally appropriate moments.** Use ascending cells at moments of rising tension (before a Crossroads); descending cells at moments of resolution (after a cadence); turn cells over stable chord-zones (Summits, Plateaus).
+4. **Place cells at structurally appropriate moments.** Use ascending cells at moments of rising tension (before a Saddle); descending cells at moments of resolution (after a cadence); turn cells over stable chord-zones (Summits, Plateaus).
 
 5. **Punctuate with rests where the line needs to breathe.** A third-species line with continuous activity from start to finish lacks shape. Rest the line briefly between phrases.
 

@@ -10,7 +10,7 @@
 
 There is no single procedure for fifth species. Instead, a series of compositional decisions:
 
-1. **Plan the chord-graph trajectory.** Where does the path go? Where are the moments of greatest tension (Crossroads, Narrows)? Where are the cadences (Summit arrivals)?
+1. **Plan the chord-graph trajectory.** Where does the path go? Where are the moments of greatest tension (Saddle, Narrows)? Where are the cadences (Summit arrivals)?
 
 2. **Plan the textural arc.** When do voices enter? When do they rest? Does the texture thicken toward a structural arrival?
 
@@ -18,7 +18,7 @@ There is no single procedure for fifth species. Instead, a series of composition
 
 4. **Plan the device usage.** Which OTH-native devices are appropriate at each moment?
    - **Multiset-shadow** at Plateau zones where the orbit shares a multiset with a relevant Summit
-   - **Leading-interval-pair** at every cadence (Crossroads → Slope → Summit)
+   - **Leading-interval-pair** at every cadence (Saddle → Slope → Summit)
    - **Wedge convergence** at structural arrivals (especially Summit arrivals after a long traversal)
    - **Real canon** in fiber zones where harmonic motion pauses
    - **Fiber-color voice** for textural support in fiber zones

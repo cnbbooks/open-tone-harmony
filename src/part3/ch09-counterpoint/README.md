@@ -6,9 +6,9 @@
 
 1. **There are no forbidden parallels in the traditional sense.** The chord-graph already encodes voice-leading parsimony — every legal motion is one voice × one semitone × three common tones. The Fuxian prohibition on parallel fifths/octaves does not transfer directly because every chord *contains* fifths by construction. The OTH analog is the **orbit-persistence prohibition**: avoid sustained motion within a single orbit (more than two consecutive edges in the same orbit can produce voice-fusion).
 
-2. **Consonance and dissonance live at the chord-class level, not the interval level.** Within any chord, every interval is in {d5, P5, A5} — there are no "dissonant intervals" by construction. What is "dissonant" in OTH is the chord-class itself: high-degree orbits (Summit, Plateau Q787) are stable; low-degree orbits (Narrows, Precipices) are tense. The Crossroads is uniquely tense-yet-connected.
+2. **Consonance and dissonance live at the chord-class level, not the interval level.** Within any chord, every interval is in {d5, P5, A5} — there are no "dissonant intervals" by construction. What is "dissonant" in OTH is the chord-class itself: high-degree orbits (Summit, Plateau Q787) are stable; low-degree orbits (Narrows, Precipices) are tense. The Saddle is uniquely tense-yet-connected.
 
-3. **Cadence is geodesically determined.** The OTH cadential formula is **Crossroads → Slope → Summit** — a verified geodesic of distance 2 through the chord-graph. This is not a postulated rule; it is the unique distance-2 path between the structurally extremal tension chord (Crossroads) and the structurally extremal stability chord (Summit).
+3. **Cadence is geodesically determined.** The OTH cadential formula is **Saddle → Slope → Summit** — a verified geodesic of distance 2 through the chord-graph. This is not a postulated rule; it is the unique distance-2 path between the structurally extremal tension chord (Saddle) and the structurally extremal stability chord (Summit).
 
 4. **Voice motion is intrinsically four-voice.** OTH chords are tetrachords by definition; there is no clean two-voice reduction. The species progression in OTH varies degrees of freedom in chord motion, not rhythmic subdivision against a cantus firmus.
 

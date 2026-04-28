@@ -6,7 +6,7 @@
 |---|---|---|---|---|
 | Q777 (Summit) | [7,7,7] | 4-23 | 8 | Tonic |
 | Q787 (Plateau) | [7,8,7] | 4-26 | 8 | Stable plateau (Cm7-flavored) |
-| Q686 (Crossroads) | [6,8,6] | 4-25 | 8 | Structural dominant (max betweenness) |
+| Q686 (Saddle) | [6,8,6] | 4-25 | 8 | Structural dominant (max betweenness) |
 | Q877 (Plateau) | [8,7,7] / [7,7,8] | 4-22 | 6 | Stable plateau (one A5) |
 | Q786 (Upper Slope) | [7,8,6] | 4-27 | 6 | Connector (dominant-7-flavored) |
 | Q688 (Precipice) | [6,8,8] / [8,8,6] | 4-24 | 6 | Edge of stability |
@@ -33,7 +33,7 @@
 
 | Step | Chord | Function |
 |---|---|---|
-| Penultimate-1 | Crossroads ([6,8,6]) | Maximum tension; two d5s |
+| Penultimate-1 | Saddle ([6,8,6]) | Maximum tension; two d5s |
 | Penultimate | Slope ([7,8,6] or [7,7,6]) | Partial resolution; one d5 remains |
 | Cadence | Summit ([7,7,7]) | Full resolution; three P5s |
 
@@ -42,9 +42,9 @@ The voice motion across this two-edge cadence is two single-semitone descents (o
 ## A.4 The eight positive rules (from the working memo)
 
 1. **Path Continuity.** Every transition between successive chords is a legal chord-graph motion type.
-2. **Cadential Direction.** Cadences are approached through tension chords (Crossroads, Slope, or related).
-3. **Tension Preparation.** Crossroads chords should be preceded by a chord at chord-graph distance 1 from them.
-4. **Resolution Pacing.** From a Crossroads, both tritones should resolve to perfect fifths within two chord-graph edges.
+2. **Cadential Direction.** Cadences are approached through tension chords (Saddle, Slope, or related).
+3. **Tension Preparation.** Saddle chords should be preceded by a chord at chord-graph distance 1 from them.
+4. **Resolution Pacing.** From a Saddle, both tritones should resolve to perfect fifths within two chord-graph edges.
 5. **Avoid Orbit-Persistence.** Three or more consecutive chord-graph edges within the same orbit produce voice fusion.
 6. **Wing Awareness.** The piece should have a coherent wing-color identity, with wing crossings made deliberately.
 7. **Degree-Gradient Direction.** Phrase-level motion should follow a meaningful trajectory through the degree landscape.
